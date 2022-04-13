@@ -1,0 +1,14 @@
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: DB1D19
+  secondary: be1512
+  primary-dark: 222
+  secondary-dark: 333
+  muted: 777
+  light-grey: e1e1e2
+  mid-grey: a3a4a6
+
+# Font Families
+font:
+  primary: 'Kanit, Roboto, sans-serif'
+  secondary: 'Kanit, Roboto, sans-serif'

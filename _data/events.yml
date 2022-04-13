@@ -1,0 +1,160 @@
+- kind: Stammtisch
+  date_time_start: 21.10.2021 18:30
+  date_time_end: 21.10.2021 22:30
+  title: 01. Bitcoin-Stammtisch Innsbruck - Auftakttermin
+  location: Kulturgasthaus Bierstindl, Raum Club 1320 im Dachgeschoss
+  pre_info:
+  post_info:
+
+- kind: Stammtisch
+  date_time_start: 24.11.2021 18:30
+  date_time_end: 24.11.2021 22:30
+  title: 02. Bitcoin-Stammtisch Innsbruck
+  location: Tisch im EG in der Ofenstube (beim Haupteingang gleich links)
+  pre_info:
+  post_info:
+
+- kind: Stammtisch
+  date_time_start: 22.12.2021 18:30
+  date_time_end: 22.12.2021 22:30
+  title: 03. Bitcoin-Stammtisch Innsbruck
+  location: Tisch im EG in der Ofenstube (beim Haupteingang gleich links)
+  pre_info:
+  post_info:
+
+- kind: Stammtisch
+  date_time_start: 26.01.2022 18:30
+  date_time_end: 26.01.2022 22:30
+  title: 04. Bitcoin-Stammtisch Innsbruck
+  location: Tisch im EG in der Ofenstube (beim Haupteingang gleich links)
+  pre_info:
+  post_info:
+
+- kind: Stammtisch
+  date_time_start: 23.02.2022 18:30
+  date_time_end: 23.02.2022 22:30
+  title: 05. Bitcoin-Stammtisch Innsbruck
+  location: Tisch im EG in der Ofenstube (beim Haupteingang gleich links)
+  pre_info:
+  post_info:
+
+- kind: Stammtisch
+  date_time_start: 23.03.2022 18:30
+  date_time_end: 23.03.2022 22:30
+  title: 06. Bitcoin-Stammtisch Innsbruck
+  location: Tisch im EG in der Ofenstube (beim Haupteingang gleich links)
+  pre_info:
+  post_info:
+
+- kind: Stammtisch
+  date_time_start: 20.04.2022 18:30
+  date_time_end: 20.04.2022 22:30
+  title: 07. Bitcoin-Stammtisch Innsbruck
+  location: Tisch im EG in der Ofenstube (beim Haupteingang gleich links)
+  pre_info:
+  post_info:
+
+- kind: Stammtisch
+  date_time_start: 25.05.2022 18:30
+  date_time_end: 25.05.2022 22:30
+  title: 08. Bitcoin-Stammtisch Innsbruck
+  location: Tisch im EG in der Ofenstube (beim Haupteingang gleich links)
+  pre_info:
+  post_info:
+
+- kind: Stammtisch
+  date_time_start: 22.06.2022 18:30
+  date_time_end: 22.06.2022 22:30
+  title: 09. Bitcoin-Stammtisch Innsbruck
+  location: Tisch im EG in der Ofenstube (beim Haupteingang gleich links)
+  pre_info:
+  post_info:
+
+- kind: Sommerpause
+  date_time_start: 23.06.2022 00:00
+  date_time_end: 31.08.2022 00:00
+  title: Bitcoin-Stammtisch Sommerpause
+  location: Sommer, Sonne, Urlaub
+  pre_info:
+  post_info:
+
+- kind: Stammtisch
+  date_time_start: 21.09.2022 18:30
+  date_time_end: 21.09.2022 22:30
+  title: 10. Bitcoin-Stammtisch Innsbruck
+  location: Tisch im EG in der Ofenstube (beim Haupteingang gleich links)
+  pre_info:
+  post_info:
+
+- kind: Stammtisch
+  date_time_start: 19.10.2022 18:30
+  date_time_end: 19.10.2022 22:30
+  title: 11. Bitcoin-Stammtisch Innsbruck
+  location: Tisch im EG in der Ofenstube (beim Haupteingang gleich links)
+  pre_info:
+  post_info:
+
+- kind: Stammtisch
+  date_time_start: 23.11.2022 18:30
+  date_time_end: 23.11.2022 22:30
+  title: 12. Bitcoin-Stammtisch Innsbruck
+  location: Tisch im EG in der Ofenstube (beim Haupteingang gleich links)
+  pre_info:
+  post_info:
+
+- kind: Stammtisch
+  date_time_start: 21.12.2022 18:30
+  date_time_end: 21.12.2022 22:30
+  title: 13. Bitcoin-Stammtisch Innsbruck
+  location: Tisch im EG in der Ofenstube (beim Haupteingang gleich links)
+  pre_info:
+  post_info:
+
+
+
+
+
+
+
+
+
+
+- kind: SafeTheDate
+  date_time_start: 15.09.2022 09:00
+  date_time_end: 17.09.2022 20:00
+  title: BTC22-DE
+  location: Congress Innsbruck
+  pre_info: 1.400 pax / Anmeldebeginn am 21.12.2021 um 21:21 Uhr
+  post_info:
+
+- kind: SafeTheDate
+  date_time_start: 16.06.2022 09:00
+  date_time_end: 18.06.2022 20:00
+  title: BTC23-EN
+  location: Vienna (Hofburg)
+  pre_info:
+  post_info:
+
+- kind: SafeTheDate
+  date_time_start: 14.09.2022 09:00
+  date_time_end: 16.09.2022 20:00
+  title: BTC23-DE
+  location: Congress Innsbruck
+  pre_info:
+  post_info:
+
+- kind: SafeTheDate
+  date_time_start: 15.06.2022 09:00
+  date_time_end: 16.06.2022 20:00
+  title: BTC24-EN
+  location: Vienna (Hofburg)
+  pre_info:
+  post_info:
+
+- kind: SafeTheDate
+  date_time_start: 19.09.2022 09:00
+  date_time_end: 21.09.2022 20:00
+  title: BTC23-DE
+  location: Congress Innsbruck
+  pre_info:
+  post_info:

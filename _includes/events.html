@@ -1,0 +1,35 @@
+<section id="events" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-lg-offset-2 col-lg-8 text-center">
+                <h2 class="section-heading text-muted">Events</h2>
+                <h3 class="section-subheading text-muted">Anstehende Termine für den Stammtisch und der Bitcoin Konferenz.</h3>
+            </div>
+            <div class="col-xl-12 col-sm-5 col-md-6 col-lg-offset-1 col-lg-5">
+                <h3 class="text-muted text-center text-md-left">Konferenz</h3>
+                <h4 class="text-muted text-center text-md-left">Tickets unter: <a href="https://bconf.de/" target="_blank">bconf.de</a></h4>
+                {% for event in site.data.events %}
+                {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+                {% capture eventtime %}{{event.date_time_end | date: '%s'}}{% endcapture %}
+                {% if eventtime > nowunix and event.kind == "SafeTheDate" %}
+                <div class="text-muted text-center text-md-left">
+                    {{ event.title }} {{ event.date_time_start | date: "%d.%m.%Y %H:%M" }} - {{ event.date_time_end | date: "%H:%M" }}
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+            <div class="col-xl-12 col-sm-7 col-md-6 col-lg-5">
+                <h3 class="text-muted text-center text-md-left">Stammtisch</h3>
+                {% for event in site.data.events %}
+                {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+                {% capture eventtime %}{{event.date_time_end | date: '%s'}}{% endcapture %}
+                {% if eventtime > nowunix and event.kind == "Stammtisch" or event.kind == "Sommerpause" %}
+                <div class="text-muted text-center text-md-left">
+                    {{ event.title }} {{ event.date_time_start | date: "%d.%m.%Y %H:%M" }} - {{ event.date_time_end | date: "%H:%M" }}
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

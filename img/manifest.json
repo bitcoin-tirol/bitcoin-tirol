@@ -1,0 +1,17 @@
+{
+  "name": "BITCOIN TIROL",
+  "short_name": "BTC TIROL",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color" : "#db1d19" ,
+  "description": "Bitcoin Stammtisch Tirol Innsbruck",
+  "icons": [
+    {
+      "src": "/img/bitcoin-tirol-favicon-77x77.png",
+      "sizes": "77x77",
+      "type": "image/png",
+      "density": "1.0"
+    }
+  ]
+}
