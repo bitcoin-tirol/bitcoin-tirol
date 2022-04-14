@@ -128,33 +128,33 @@
   post_info:
 
 - kind: SafeTheDate
-  date_time_start: 16.06.2022 09:00
-  date_time_end: 18.06.2022 20:00
+  date_time_start: 16.06.2023 09:00
+  date_time_end: 18.06.2023 20:00
   title: BTC23-EN
   location: Vienna (Hofburg)
   pre_info:
   post_info:
 
 - kind: SafeTheDate
-  date_time_start: 14.09.2022 09:00
-  date_time_end: 16.09.2022 20:00
+  date_time_start: 14.09.2023 09:00
+  date_time_end: 16.09.2023 20:00
   title: BTC23-DE
   location: Congress Innsbruck
   pre_info:
   post_info:
 
 - kind: SafeTheDate
-  date_time_start: 15.06.2022 09:00
-  date_time_end: 16.06.2022 20:00
+  date_time_start: 15.06.2024 09:00
+  date_time_end: 16.06.2024 20:00
   title: BTC24-EN
   location: Vienna (Hofburg)
   pre_info:
   post_info:
 
 - kind: SafeTheDate
-  date_time_start: 19.09.2022 09:00
-  date_time_end: 21.09.2022 20:00
-  title: BTC23-DE
+  date_time_start: 19.09.2024 09:00
+  date_time_end: 21.09.2024 20:00
+  title: BTC24-DE
   location: Congress Innsbruck
   pre_info:
   post_info:
