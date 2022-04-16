@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   der Bitcoin-Blockchain-Technologie zu vernetzen, Wissen zu verbreiten 
   und ein Netzwerk von Experten zum Thema aufzubauen.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://bitcoin-tirol.at" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: "@rsollos"
 github_username:  rolandschellhorn
 
@@ -33,6 +33,8 @@ meta_theme_color: "#db1d19"
 twitter_site: "@Einundzwanzig_I"
 twitter_title: "Bitcoin Tirol"
 twitter_description: "Bitcoin Stammtisch Tirol Innsbruck - Bitcoin Austria"
+twitter_image: ""
+twitter_image_alt: "Bitcoin Stammtisch Tirol Innsbruck Image"
 
 og_locale: "DE"
 og_url: ""
