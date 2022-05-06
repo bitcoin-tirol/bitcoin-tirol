@@ -93,8 +93,8 @@
             {% assign show_counter_max = 1 %}
             {% assign show_counter = 0 %}
             {% for event in site.data.events %}
-                {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
-                {% capture eventtime %}{{event.date_time_end | date: '%s'}}{% endcapture %}
+                {% capture nowunix %}{{'now' | date: '%s' | times: 1}}{% endcapture %}
+                {% capture eventtime %}{{event.date_time_end | date: '%s' | times: 1}}{% endcapture %}
                 {% if eventtime < nowunix %}
                     <!--p>Past: {{ event.date_time_start }} - {{ event.date_time_end }}</p-->
                 {% elsif eventtime > nowunix and show_counter < show_counter_max and event.kind == "Stammtisch" or event.kind == "Sommerpause" %}
