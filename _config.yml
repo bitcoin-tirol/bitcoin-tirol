@@ -29,6 +29,9 @@ url: "https://bitcoin-tirol.at" # the base hostname & protocol for your site, e.
 twitter_username: "@rsollos"
 github_username:  rolandschellhorn
 
+future: true
+timezone: Europe/Vienna
+
 meta_theme_color: "#db1d19"
 twitter_site: "@Einundzwanzig_I"
 twitter_title: "Bitcoin Tirol"
