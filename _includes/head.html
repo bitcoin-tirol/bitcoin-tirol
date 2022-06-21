@@ -58,6 +58,7 @@
                 const res = JSON.parse(data.toString());
                 if (res.block) {
                     document.getElementById("result-blocks").textContent = JSON.stringify(res.block, undefined, 2);
+                    document.getElementById("result-blocks-height").textContent = JSON.stringify(res.block.height, undefined, 2);
                 }
                 if (res.mempoolInfo) {
                     document.getElementById("result-mempool-info").textContent = JSON.stringify(res.mempoolInfo, undefined, 2);
