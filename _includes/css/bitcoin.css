@@ -486,6 +486,14 @@ section#contact .text-danger {
     color: #e74c3c;
 }
 
+.special-events h1, .special-events h2, .special-events h3, .special-events {
+    color: #000000;
+}
+
+.special-events-light h1, .special-events-light h2, .special-events-light h3, .special-events-light h4, .special-events-light {
+    color: #ffffff;
+}
+
 footer {
     padding: 25px 0;
     text-align: center;
