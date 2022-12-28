@@ -90,7 +90,7 @@
   date_time_start: 21.09.2022 18:30
   date_time_end: 21.09.2022 21:21
   title: 10. Bitcoin-Stammtisch Innsbruck
-  location: Tisch im EG in der Ofenstube (beim Haupteingang gleich links)
+  location: Großer Raum EG (hinten links)
   pre_info: Mit dabei - Roman alias Blocktrainer
   post_info:
 
@@ -118,12 +118,101 @@
   pre_info:
   post_info:
 
+- kind: Stammtisch
+  date_time_start: 25.01.2023 18:30
+  date_time_end: 25.01.2023 21:21
+  title: 14. Bitcoin-Stammtisch Innsbruck
+  location: Tisch im EG in der Ofenstube (beim Haupteingang gleich links)
+  pre_info:
+  post_info:
 
+- kind: Stammtisch
+  date_time_start: 22.02.2023 18:30
+  date_time_end: 20.02.2023 21:21
+  title: 15. Bitcoin-Stammtisch Innsbruck
+  location: Tisch im EG in der Ofenstube (beim Haupteingang gleich links)
+  pre_info:
+  post_info:
 
+- kind: Stammtisch
+  date_time_start: 22.03.2023 18:30
+  date_time_end: 22.03.2023 21:21
+  title: 16. Bitcoin-Stammtisch Innsbruck
+  location: Tisch im EG in der Ofenstube (beim Haupteingang gleich links)
+  pre_info:
+  post_info:
 
+- kind: Stammtisch
+  date_time_start: 19.04.2023 18:30
+  date_time_end: 19.04.2023 21:21
+  title: 17. Bitcoin-Stammtisch Innsbruck
+  location: Tisch im EG in der Ofenstube (beim Haupteingang gleich links)
+  pre_info:
+  post_info:
 
+- kind: Stammtisch
+  date_time_start: 24.05.2023 18:30
+  date_time_end: 24.05.2023 21:21
+  title: 18. Bitcoin-Stammtisch Innsbruck
+  location: Gastgarten
+  pre_info:
+  post_info:
 
+- kind: Stammtisch
+  date_time_start: 21.06.2023 18:30
+  date_time_end: 21.06.2023 21:21
+  title: 19. Bitcoin-Stammtisch Innsbruck
+  location: Gastgarten
+  pre_info:
+  post_info:
 
+- kind: Sommerpause
+  date_time_start: 05.08.2023 09:00
+  date_time_end: 05.08.2023 21:21
+  title: Bitcoin Plebs Sommer Picknick
+  location: Wildsee in Seefeld Strandperle
+  pre_info:
+  post_info:
+
+- kind: Stammtisch
+  date_time_start: 14.09.2022 18:30
+  date_time_end: 16.09.2022 21:21
+  title: BTC23 Bitcoin Konferenz
+  location: Congress Innsbruck
+  pre_info: Congress Innsbruck | 14 - 16.09.2022
+  post_info:
+
+- kind: Stammtisch
+  date_time_start: 20.09.2023 18:30
+  date_time_end: 20.09.2023 21:21
+  title: 20. Bitcoin-Stammtisch Innsbruck
+  location: Großer Raum EG (hinten links)
+  pre_info:
+  post_info:
+
+- kind: Stammtisch
+  date_time_start: 18.10.2023 18:30
+  date_time_end: 18.10.2023 21:21
+  title: 21. Bitcoin-Stammtisch Innsbruck
+  location: Tisch im EG in der Ofenstube (beim Haupteingang gleich links)
+  pre_info:
+  post_info:
+
+- kind: Stammtisch
+  date_time_start: 22.11.2023 18:30
+  date_time_end: 22.11.2023 21:21
+  title: 22. Bitcoin-Stammtisch Innsbruck
+  location: Tisch im EG in der Ofenstube (beim Haupteingang gleich links)
+  pre_info:
+  post_info:
+
+- kind: Stammtisch
+  date_time_start: 20.12.2023 18:30
+  date_time_end: 20.12.2023 21:21
+  title: 23. Bitcoin-Stammtisch Innsbruck
+  location: Tisch im EG in der Ofenstube (beim Haupteingang gleich links)
+  pre_info:
+  post_info:
 
 
 
