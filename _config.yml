@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   und ein Netzwerk von Experten zum Thema aufzubauen.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bitcoin-tirol.at" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: "@opsec_roli"
+twitter_username: "@thekingrol"
 github_username:  rolandschellhorn
 
 future: true
