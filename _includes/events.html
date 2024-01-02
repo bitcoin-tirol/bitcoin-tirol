@@ -6,7 +6,7 @@
                 <h3 class="section-subheading text-muted">Anstehende Termine für den Stammtisch und der Bitcoin Konferenz:</h3>
             </div>
             <div class="col-xl-12 col-sm-5 col-md-6 col-lg-offset-1 col-lg-5">
-                <h2 class="text-muted text-center text-md-left">Konferenz</h2>
+                <h2 class="text-muted text-center text-md-left">Safe the Date</h2>
                 {% for event in site.data.events %}
                 {% capture nowunix %}{{'now' | date: '%s' | times: 1}}{% endcapture %}
                 {% capture eventtime %}{{event.date_time_end | date: '%s' | times: 1}}{% endcapture %}
