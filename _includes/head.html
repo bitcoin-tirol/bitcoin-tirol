@@ -41,37 +41,4 @@
     <meta name="twitter:image:alt" content="{{ site.twitter_image_alt }}">
     <meta name="twitter:title" content="{{ site.twitter_title }}">
     <meta name="twitter:description" content="{{ site.twitter_description }}">
-
-    <script src="https://mempool.space/mempool.js"></script>
-    <script>
-        const init = async () => {
-
-            const { bitcoin: { websocket } } = mempoolJS({
-                hostname: 'mempool.space'
-            });
-
-            const ws = websocket.initClient({
-                options: ['blocks', 'stats', 'mempool-blocks', 'live-2h-chart'],
-            });
-
-            ws.addEventListener('message', function incoming({data}) {
-                const res = JSON.parse(data.toString());
-                if (res.block) {
-                    document.getElementById("result-blocks").textContent = JSON.stringify(res.block, undefined, 2);
-                    document.getElementById("result-blocks-height").textContent = JSON.stringify(res.block.height, undefined, 2);
-                }
-                if (res.mempoolInfo) {
-                    document.getElementById("result-mempool-info").textContent = JSON.stringify(res.mempoolInfo, undefined, 2);
-                }
-                if (res.transactions) {
-                    document.getElementById("result-transactions").textContent = JSON.stringify(res.transactions, undefined, 2);
-                }
-                if (res["mempool-blocks"]) {
-                    document.getElementById("result-mempool-blocks").textContent = JSON.stringify(res["mempool-blocks"], undefined, 2);
-                }
-            });
-
-        };
-        init();
-    </script>
 </head>
