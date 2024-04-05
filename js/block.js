@@ -3,7 +3,7 @@
  * @version 1.0
  */
 
-const halvingBlock = 840000; // 84000
+const halvingBlock = 840000 // 84000
 const updateInterval = 21000;
 const defaultTimeBetweenBlocks = 10;
 let lastBlock = false;
@@ -54,7 +54,8 @@ function fetchData() {
       document.getElementById('timeToHalving').textContent = `${days} Tage, ${hours} Stunden, ${minutes} Minuten`;
       document.getElementById('defaultTimeToHalving').textContent = `${defaultDays} Tage, ${defaultHours} Stunden, ${defaultMinutes} Minuten`;
 
-      updateCountdown(timeToHalvingMinutes * 60);
+      //updateCountdown(timeToHalvingMinutes * 60);
+      updateCountdown(defaultTimeToHalvingMinutes * 60);
       updateApiCallCountdown();
     })
     .catch(error => {
