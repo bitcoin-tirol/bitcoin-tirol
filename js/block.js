@@ -3,7 +3,7 @@
  * @version 1.0
  */
 
-const halvingBlock = 840000 // 84000
+const halvingBlock = 837784 // 84000
 const updateInterval = 21000;
 const defaultTimeBetweenBlocks = 10;
 let lastBlock = false;
@@ -19,7 +19,7 @@ function fetchData() {
 
       if (currentBlock >= halvingBlock) {
         document.getElementById('blockinfo').style.display = 'none';
-        document.getElementById('blockinfo-final').style.display = 'block';
+        document.getElementById('halvingCelebration').style.display = 'block';
         if (countdownInterval) {
           clearInterval(countdownInterval);
         }
