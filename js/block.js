@@ -110,7 +110,7 @@ function displayHalvingDateInTimezones(secondsUntilHalving) {
   const halvingDate = new Date(now.getTime() + secondsUntilHalving * 1000);
 
   const timeZones = [
-    { label: 'MEZ', timeZone: 'Europe/Vienna' }
+    { label: ':', timeZone: 'Europe/Vienna' }
   ];
 
   timeZones.forEach(zone => {
@@ -129,7 +129,7 @@ function displayDefaultHalvingDateInTimezones(secondsUntilHalving) {
   const halvingDate = new Date(now.getTime() + secondsUntilHalving * 1000);
 
   const timeZones = [
-    { label: 'MEZ', timeZone: 'Europe/Vienna' }
+    { label: ':', timeZone: 'Europe/Vienna' }
   ];
 
   timeZones.forEach(zone => {
