@@ -3,7 +3,7 @@
  * @version 1.0
  */
 
-const halvingBlock = 840000 // 84000
+const halvingBlock = 210000 * 5;
 const updateInterval = 21000;
 const defaultTimeBetweenBlocks = 10;
 let lastBlock = false;

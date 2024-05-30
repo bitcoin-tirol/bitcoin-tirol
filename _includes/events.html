@@ -17,6 +17,10 @@
                     {{ event.pre_info }}
                     <br><br>
                     {{ event.location }}
+                    <br><br>
+                    {% if event.registration %}
+                        <a target="_blank" href="{{ event.registration }}">Zum Event anmelden (kostenlos)</a>
+                    {% endif %}
                 </h3>
                 {% endif %}
                 {% endfor %}
