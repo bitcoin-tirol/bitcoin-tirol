@@ -262,18 +262,26 @@
   pre_info:
   post_info:
 
+- kind: Stammtisch
+  date_time_start: 09.08.2024 18:30
+  date_time_end: 09.08.2024 21:21
+  title: 30. Bitcoin-Stammtisch Innsbruck (Special Plebs Meetup)
+  location: VIP Garten
+  pre_info:
+  post_info:
+
 - kind: Sommerpause
-  date_time_start: 27.07.2023 12:00
-  date_time_end: 27.07.2023 21:21
-  title: 2. Mempool Sommer Party
+  date_time_start: 10.08.2024 12:21
+  date_time_end: 10.08.2024 21:21
+  title: 3. Mempool Sommer Party
   location: Wildsee in Seefeld Strandperle
-  pre_info: Wildsee in Seefeld Strandperle -  Samstag 27. Juli
+  pre_info: Wildsee in Seefeld Strandperle -  Samstag 10. August
   post_info:
 
 - kind: Stammtisch
   date_time_start: 18.09.2024 18:30
   date_time_end: 18.09.2024 21:21
-  title: 30. Bitcoin-Stammtisch Innsbruck
+  title: 31. Bitcoin-Stammtisch Innsbruck
   location: Tisch im EG in der Ofenstube (beim Haupteingang gleich links)
   pre_info:
   post_info:
@@ -281,7 +289,7 @@
 - kind: Stammtisch
   date_time_start: 23.10.2024 18:30
   date_time_end: 23.10.2024 21:21
-  title: 31. Bitcoin-Stammtisch Innsbruck
+  title: 32. Bitcoin-Stammtisch Innsbruck
   location: Tisch im EG in der Ofenstube (beim Haupteingang gleich links)
   pre_info:
   post_info:
@@ -289,7 +297,7 @@
 - kind: Stammtisch
   date_time_start: 20.11.2024 18:30
   date_time_end: 20.11.2024 21:21
-  title: 32. Bitcoin-Stammtisch Innsbruck
+  title: 33. Bitcoin-Stammtisch Innsbruck
   location: Tisch im EG in der Ofenstube (beim Haupteingang gleich links)
   pre_info:
   post_info:
@@ -297,7 +305,7 @@
 - kind: Stammtisch
   date_time_start: 18.12.2024 18:30
   date_time_end: 18.12.2024 21:21
-  title: 33. Bitcoin-Stammtisch Innsbruck
+  title: 34. Bitcoin-Stammtisch Innsbruck
   location: Tisch im EG in der Ofenstube (beim Haupteingang gleich links)
   pre_info:
   post_info:
