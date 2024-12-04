@@ -37,7 +37,9 @@
                 {% capture eventtime %}{{event.date_time_end | date: '%s'}}{% endcapture %}
                 {% if eventtime > nowunix and event.kind == "Stammtisch" %}
                 <div class="text-muted text-center text-md-left">
+                    {% if event.pre_info %} {{ event.pre_info }} </br> {% endif %}
                     {{ event.title }} {{ event.date_time_start | date: "%d.%m.%Y %H:%M" }} - {{ event.date_time_end | date: "%H:%M" }}
+                    {% if event.post_info %} </br> {{ event.post_info }} </br> {% endif %}
                 </div>
                 {% elsif eventtime > nowunix and event.kind == "Sommerpause" %}
                 <div class="text-muted text-center text-md-left">

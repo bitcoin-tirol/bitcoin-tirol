@@ -176,10 +176,11 @@
         <!--p>Past: {{ event.date_time_start }} - {{ event.date_time_end }}</p-->
         {% elsif eventtime > nowunix and show_counter < show_counter_max and event.kind == "Stammtisch" or event.kind ==
         "Sommerpause" %}
+        {% if event.pre_info %} {{ event.pre_info }} </br> {% endif %}
         {% assign show_counter = show_counter | plus: 1 %}
         {{ event.title }} {{ event.date_time_start | date: "%d.%m.%Y %H:%M" }} - {{ event.date_time_end | date: "%H:%M"
         }}
-        {% if event.pre_info %} </br> {{ event.pre_info }} {% endif %}
+        {% if event.post_info %} </br> {{ event.post_info }}  </br> {% endif %}
         {% endif %}
         {% endfor %}
     </div>
