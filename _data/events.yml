@@ -303,12 +303,12 @@
   post_info:
 
 - kind: Stammtisch
-  date_time_start: 18.12.2024 18:30
+  date_time_start: 18.12.2024 18:00
   date_time_end: 18.12.2024 21:21
   title: 34. Bitcoin-Stammtisch Innsbruck
-  location: Tisch im EG in der Ofenstube (beim Haupteingang gleich links)
-  pre_info:
-  post_info:
+  location: Christkindlmarkt am Bergisel / 19:30 Bierstindl, Tisch im EG in der Ofenstube (beim Haupteingang gleich links)
+  pre_info: Thema: Aktien-Schwerpunkt
+  post_info: 
 
 - kind: SafeTheDate
   date_time_start: 15.09.2022 09:00
