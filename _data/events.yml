@@ -424,19 +424,19 @@
   post_info:
 
 - kind: SafeTheDate
-  date_time_start: 02.08.2024 12:21
-  date_time_end: 02.08.2024 21:21
-  title: MemPool Party 25
-  location: Strandperle Seefeld
-  registration: soon
-  pre_info: Die größte deutschsprachige Bitcoin Only Pool Party
-  post_info:
-
-- kind: SafeTheDate
   date_time_start: 18.12.2024 18:00
   date_time_end: 18.12.2024 19:00
   title: ATH Glühwein Treffen
   location: Christkindlmarkt am Bergisel
+  registration:
+  pre_info:
+  post_info:
+
+- kind: SafeTheDate
+  date_time_start: 08.02.2025 18:00
+  date_time_end: 08.02.2025 20:00
+  title: EINUNDZWANZIG Bitcoin-Informationstag
+  location: TBA
   registration:
   pre_info:
   post_info:
@@ -457,6 +457,15 @@
   location: auf der Wasserburg Heldrungen (D)
   registration:
   pre_info:
+  post_info:
+
+- kind: SafeTheDate
+  date_time_start: 02.08.2025 12:21
+  date_time_end: 02.08.2025 21:21
+  title: MemPool Party 25
+  location: Strandperle Seefeld
+  registration:
+  pre_info: Die größte deutschsprachige Bitcoin Only Pool Party
   post_info:
 
 - kind: SafeTheDate
