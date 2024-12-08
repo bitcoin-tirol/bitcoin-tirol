@@ -4,6 +4,7 @@
             <div class="col-xs-12 col-lg-offset-2 col-lg-8 text-center">
                 <h2 class="section-heading text-muted">Events</h2>
                 <h3 class="section-subheading text-muted">Anstehende Termine für den Stammtisch, Konferenz und Partys:</h3>
+                <p><a href="https://portal.einundzwanzig.space/at/meetup/meetup-events?meetup_events[filters][bymeetupid]=72&l=de" target="_blank" rel="nofollow noreferrer noopener">Einundzwanzig Portal Termine (Kalender Integration)</a> </p>
             </div>
             <div class="col-xl-12 col-sm-5 col-md-6 col-lg-offset-1 col-lg-5">
                 <h2 class="text-muted text-center text-md-left">Safe the Date</h2>
@@ -11,17 +12,19 @@
                 {% capture nowunix %}{{'now' | date: '%s' | times: 1}}{% endcapture %}
                 {% capture eventtime %}{{event.date_time_end | date: '%s' | times: 1}}{% endcapture %}
                 {% if eventtime > nowunix and event.kind == "SafeTheDate" %}
-                <h3 class="text-muted text-center text-md-left">
-                    <span style="padding-right: 16px;">{{ event.title }}</span> {{ event.date_time_start | date: "%d" }} - {{ event.date_time_end | date: "%d.%m.%Y" }}
-                    <br><br>
-                    {{ event.pre_info }}
-                    <br><br>
-                    {{ event.location }}
-                    <br><br>
+                <p class="text-muted text-center text-md-left">
+                <h4 class="text-muted"><span style="padding-right: 16px;">{{ event.title }}</span> {{ event.date_time_start | date: "%d" }} - {{ event.date_time_end | date: "%d.%m.%Y" }}</h4>
+                    {% if event.location %}
+                    <div class="text-muted">{{ event.location }}</div>
+                    {% endif %}
+                    {% if event.pre_info %}
+                    <div class="text-muted">{{ event.pre_info }}</div>
+                    {% endif %}
                     {% if event.registration %}
                         <a target="_blank" href="{{ event.registration }}">Zum Event anmelden (kostenlos)</a>
                     {% endif %}
-                </h3>
+                    </br>
+                </p>
                 {% endif %}
                 {% endfor %}
                 <br>
@@ -32,23 +35,29 @@
             </div>
             <div class="col-xl-12 col-sm-7 col-md-6 col-lg-5">
                 <h3 class="text-muted text-center text-md-left">Stammtisch</h3>
+                <h5 class="text-muted">Kostenlos, keine Anmeldung erforderlich, jeder ist Willkommen!</h5>
                 {% for event in site.data.events %}
-                {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
-                {% capture eventtime %}{{event.date_time_end | date: '%s'}}{% endcapture %}
-                {% if eventtime > nowunix and event.kind == "Stammtisch" %}
-                <div class="text-muted text-center text-md-left">
-                    {% if event.pre_info %} {{ event.pre_info }} </br> {% endif %}
-                    {{ event.title }} {{ event.date_time_start | date: "%d.%m.%Y %H:%M" }} - {{ event.date_time_end | date: "%H:%M" }}
-                    {% if event.post_info %} </br> {{ event.post_info }} </br> {% endif %}
-                </div>
-                {% elsif eventtime > nowunix and event.kind == "Sommerpause" %}
-                <div class="text-muted text-center text-md-left">
-                    {% assign months = "Jänner|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember" | split: "|" %}
-                    {% assign start = event.date_time_start | date: "%-m" | minus: 1 %}
-                    {% assign end = event.date_time_end | date: "%-m" | minus: 1 %}
-                    {{ months[start] }} / {{ months[end] }} - {{ event.title }}
-                </div>
-                {% endif %}
+                    {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+                    {% capture eventtime %}{{event.date_time_end | date: '%s'}}{% endcapture %}
+                    {% if eventtime > nowunix and event.kind == "Stammtisch" %}
+                    <div style="padding-bottom: 8px;">
+                    <div class="text-muted text-center text-md-left">
+                        {% if event.pre_info %} {{ event.pre_info }} </br> {% endif %}
+                        {{ event.title }} {{ event.date_time_start | date: "%d.%m.%Y %H:%M" }} - {{ event.date_time_end | date: "%H:%M" }}
+                        {% if event.location %} Location: {{ event.location }} {% endif %}
+                        {% if event.post_info %} </br> {{ event.post_info }} </br> {% endif %}
+                    </div>
+                    </div>
+                    {% elsif eventtime > nowunix and event.kind == "Sommerpause" %}
+                    <div style="padding-bottom: 8px;">
+                    <div class="text-muted text-center text-md-left">
+                        {% assign months = "Jänner|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember" | split: "|" %}
+                        {% assign start = event.date_time_start | date: "%-m" | minus: 1 %}
+                        {% assign end = event.date_time_end | date: "%-m" | minus: 1 %}
+                        {{ months[start] }} / {{ months[end] }} - {{ event.title }}
+                    </div>
+                    </div>
+                    {% endif %}
                 {% endfor %}
             </div>
         </div>

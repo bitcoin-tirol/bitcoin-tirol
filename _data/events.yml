@@ -306,9 +306,97 @@
   date_time_start: 18.12.2024 18:00
   date_time_end: 18.12.2024 21:21
   title: 34. Bitcoin-Stammtisch Innsbruck
-  location: Christkindlmarkt am Bergisel - danach ab 19:30 Bierstindl, Tisch im EG in der Ofenstube (beim Haupteingang gleich links)
-  pre_info: 'Thema: Aktien-Schwerpunkt'
-  post_info: 'Ablauf: 18:00 Christkindlmarkt am Bergisel. Danach ab 19:30 im Bierstindl, Tisch im EG in der Ofenstube (beim Haupteingang gleich links)'
+  location: Christkindlmarkt am Bergisel / Bierstindl im Stindlsaal
+  pre_info:
+  post_info: 'Ablauf: 18:00 Christkindlmarkt am Bergisel. Danach ab 19:30 im Bierstindl, Tisch im EG in der Ofenstube (beim Haupteingang gleich links) | Thema: Aktien-Schwerpunkt'
+
+- kind: Stammtisch
+  date_time_start: 22.01.2025 18:30
+  date_time_end: 22.01.2025 21:21
+  title: 35. Bitcoin-Stammtisch Innsbruck
+  location: Bierstindl, Tisch im EG in der Ofenstube (beim Haupteingang gleich links)
+  pre_info:
+  post_info:
+
+- kind: Stammtisch
+  date_time_start: 19.02.2025 18:30
+  date_time_end: 19.02.2025 21:21
+  title: 36. Bitcoin-Stammtisch Innsbruck
+  location: Bierstindl, Tisch im EG in der Ofenstube (beim Haupteingang gleich links)
+  pre_info:
+  post_info:
+
+- kind: Stammtisch
+  date_time_start: 19.03.2025 18:30
+  date_time_end: 19.03.2025 21:21
+  title: 37. Bitcoin-Stammtisch Innsbruck
+  location: Bierstindl, Tisch im EG in der Ofenstube (beim Haupteingang gleich links)
+  pre_info:
+  post_info:
+
+- kind: Stammtisch
+  date_time_start: 23.04.2025 18:30
+  date_time_end: 23.04.2025 21:21
+  title: 38. Bitcoin-Stammtisch Innsbruck
+  location: Bierstindl, Tisch im EG in der Ofenstube (beim Haupteingang gleich links)
+  pre_info:
+  post_info:
+
+- kind: Stammtisch
+  date_time_start: 21.05.2025 18:30
+  date_time_end: 21.05.2025 21:21
+  title: 39. Bitcoin-Stammtisch Innsbruck
+  location: Bierstindl, VIP-Garten
+  pre_info:
+  post_info:
+
+- kind: Stammtisch
+  date_time_start: 25.06.2025 18:30
+  date_time_end: 25.06.2025 21:21
+  title: 40. Bitcoin-Stammtisch Innsbruck
+  location: Bierstindl, VIP-Garten
+  pre_info:
+  post_info:
+
+- kind: Sommerpause
+  date_time_start: 02.08.2024 12:21
+  date_time_end: 02.08.2024 21:21
+  title: 4. Mempool Sommer Party
+  location: Wildsee in Seefeld Strandperle
+  pre_info: Wildsee in Seefeld Strandperle -  Samstag 2. August
+  post_info:
+
+- kind: Stammtisch
+  date_time_start: 17.09.2025 18:30
+  date_time_end: 17.09.2025 21:21
+  title: 41. Bitcoin-Stammtisch Innsbruck
+  location: Bierstindl, Tisch im EG in der Ofenstube (beim Haupteingang gleich links)
+  pre_info:
+  post_info:
+
+- kind: Stammtisch
+  date_time_start: 22.10.2025 18:30
+  date_time_end: 22.10.2025 21:21
+  title: 42. Bitcoin-Stammtisch Innsbruck
+  location: Bierstindl, Tisch im EG in der Ofenstube (beim Haupteingang gleich links)
+  pre_info:
+  post_info:
+
+- kind: Stammtisch
+  date_time_start: 19.11.2025 18:30
+  date_time_end: 19.11.2025 21:21
+  title: 43. Bitcoin-Stammtisch Innsbruck
+  location: Bierstindl, Tisch im EG in der Ofenstube (beim Haupteingang gleich links)
+  pre_info:
+  post_info:
+
+- kind: Stammtisch
+  date_time_start: 17.12.2025 18:00
+  date_time_end: 17.12.2025 21:21
+  title: 44. Bitcoin-Stammtisch Innsbruck
+  location: Christkindlmarkt am Bergisel - danach ab 19:30 Bierstindl im Stindlsaal
+  pre_info:
+  post_info:
 
 - kind: SafeTheDate
   date_time_start: 15.09.2022 09:00
@@ -336,10 +424,46 @@
   post_info:
 
 - kind: SafeTheDate
+  date_time_start: 02.08.2024 12:21
+  date_time_end: 02.08.2024 21:21
+  title: MemPool Party 25
+  location: Strandperle Seefeld
+  registration: soon
+  pre_info: Die größte deutschsprachige Bitcoin Only Pool Party
+  post_info:
+
+- kind: SafeTheDate
   date_time_start: 18.12.2024 18:00
   date_time_end: 18.12.2024 19:00
   title: ATH Glühwein Treffen
-  location: Christkindlmarkt am Bergisel (bei der Skisprungschanze – NICHT jener in der Altstadt !!)
+  location: Christkindlmarkt am Bergisel
+  registration:
+  pre_info:
+  post_info:
+
+- kind: SafeTheDate
+  date_time_start: 19.06.2025 18:00
+  date_time_end: 21.06.2025 20:00
+  title: BTC Prague
+  location:
+  registration:
+  pre_info:
+  post_info:
+
+- kind: SafeTheDate
+  date_time_start: 24.07.2025 12:00
+  date_time_end: 27.07.2025 12:00
+  title: Bitcoin-Zitadelle 2025
+  location: auf der Wasserburg Heldrungen (D)
+  registration:
+  pre_info:
+  post_info:
+
+- kind: SafeTheDate
+  date_time_start: 17.12.2025 18:00
+  date_time_end: 17.12.2025 19:00
+  title: ATH Glühwein Treffen
+  location: Christkindlmarkt am Bergisel
   registration:
   pre_info:
   post_info:
