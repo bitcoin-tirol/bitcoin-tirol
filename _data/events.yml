@@ -306,9 +306,9 @@
   date_time_start: 18.12.2024 18:00
   date_time_end: 18.12.2024 21:21
   title: 34. Bitcoin-Stammtisch Innsbruck
-  location: Christkindlmarkt am Bergisel / Bierstindl im Stindlsaal
+  location: Christkindlmarkt Wiltener Platzl / Bierstindl im Stindlsaal
   pre_info:
-  post_info: 'Ablauf: 18:00 Christkindlmarkt am Bergisel. Danach ab 19:30 im Bierstindl, Tisch im EG in der Ofenstube (beim Haupteingang gleich links) | Thema: Aktien-Schwerpunkt'
+  post_info: 'Ablauf: 18:00 Christkindlmarkt Wiltener Platzl, Leopoldstr. 27 - danach ab 19:30 im Bierstindl, Stindlsaal im EG links | Thema: Aktien-Schwerpunkt'
 
 - kind: Stammtisch
   date_time_start: 22.01.2025 18:30
@@ -469,10 +469,10 @@
   post_info:
 
 - kind: SafeTheDate
-  date_time_start: 17.12.2025 18:00
+  date_time_start: 17.12.2025 17:30
   date_time_end: 17.12.2025 19:00
   title: ATH Glühwein Treffen
-  location: Christkindlmarkt am Bergisel
+  location: Christkindlmarkt Wiltener Platzl / Bierstindl im Stindlsaal
   registration:
   pre_info:
-  post_info:
+  post_info: 'Ablauf: 17:30 Christkindlmarkt Wiltener Platzl, Leopoldstr. 27 - danach ab 19:30 im Bierstindl, Stindlsaal im EG links | Thema: Aktien-Schwerpunkt'
