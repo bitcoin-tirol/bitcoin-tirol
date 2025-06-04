@@ -8,6 +8,7 @@ const updateInterval = 21000;
 const defaultTimeBetweenBlocks = 10;
 let lastBlock = false;
 let countdownInterval;
+let apiCallCountdownInterval;
 
 function fetchData() {
   fetch('https://api.blockchain.info/stats')
@@ -66,11 +67,16 @@ function fetchData() {
 function updateApiCallCountdown() {
   let countdown = updateInterval / 1000;
   const countdownElement = document.getElementById('updateIn');
-  const intervalId = setInterval(() => {
+
+  if (apiCallCountdownInterval) {
+    clearInterval(apiCallCountdownInterval);
+  }
+
+  apiCallCountdownInterval = setInterval(() => {
     countdown--;
     countdownElement.textContent = countdown;
     if (countdown <= 0) {
-      clearInterval(intervalId);
+      clearInterval(apiCallCountdownInterval);
       countdownElement.textContent = updateInterval / 1000;
     }
   }, 1000);
