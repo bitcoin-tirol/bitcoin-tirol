@@ -12,9 +12,9 @@
 #   {{ "0a0b0c" | hex_to_rgb }}
 #   # => [10, 11, 12]
 #
-# hexval - string of valid hexidecimal characters
+# hexval - string of valid hexadecimal characters
 #
-# Returns an array of decimal values for the parse hex characters
+# Returns an array of decimal values for the parsed hex characters
 #
 
 module Jekyll
