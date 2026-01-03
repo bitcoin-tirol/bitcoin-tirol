@@ -28,14 +28,17 @@
                     <a class="page-scroll" href="#about">Über uns</a>
                 </li>
                 <li>
+                <a class="page-scroll" href="#app">APP / EVENTS</a>
+                </li>
+                <!--li>
                     <a class="page-scroll" href="#mission">Mission</a>
-                </li>
-                <li>
+                </li-->
+                <!--li>
                     <a class="page-scroll" href="#events">Events</a>
-                </li>
-                <li>
+                </li-->
+                <!--li>
                     <a class="page-scroll" href="#location">Location</a>
-                </li>
+                </li-->
                 <!--li>
                     <a class="page-scroll" href="#partner">Partner</a>
                 </li-->
@@ -63,7 +66,10 @@
                     </div>
                     <div class="contact-wrapper">
                         <div class="contact">
-                            <a href="{{ site.social_twitter }}" target="_blank" class="page-scroll btn btn-xl btn-lg">
+                            <a href="#app" target="_blank" class="page-scroll btn btn-xl btn-lg">
+                                APP / EVENTS
+                            </a>
+                            <!-- <a href="{{ site.social_twitter }}" target="_blank" class="page-scroll btn btn-xl btn-lg">
                                 <svg id="Capa_1" enable-background="new 0 0 1226.37 1226.37"
                                      viewBox="0 0 1226.37 1226.37" xmlns="http://www.w3.org/2000/svg">
                                     <path d="m727.348 519.284 446.727-519.284h-105.86l-387.893 450.887-309.809-450.887h-357.328l468.492 681.821-468.492 544.549h105.866l409.625-476.152 327.181 476.152h357.328l-485.863-707.086zm-144.998 168.544-47.468-67.894-377.686-540.24h162.604l304.797 435.991 47.468 67.894 396.2 566.721h-162.604l-323.311-462.446z"/>
@@ -84,13 +90,13 @@
                                     <g/>
                                 </svg>
                                 X (Twitter)
-                            </a>
+                            </a> -->
                         </div>
                         <div class="contact">
                             <a href="{{ site.social_telegram }}" target="_blank" class="page-scroll btn btn-xl btn-lg">
                                 <?xml version="1.0" encoding="iso-8859-1"?>
                                 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-                                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                <!-- <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                      x="0px" y="0px"
                                      viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
                                      xml:space="preserve">
@@ -140,7 +146,7 @@
 </g>
                                     <g>
 </g>
-</svg>
+</svg> -->
 
                                 Telegram
                             </a>
@@ -160,7 +166,7 @@
     </div>
 </header>
 
-<div class="notification-line">
+<!-- <div class="notification-line">
     <div class="icon pe-4">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
             <path d="M160 32V64H288V32C288 14.33 302.3 0 320 0C337.7 0 352 14.33 352 32V64H400C426.5 64 448 85.49 448 112V160H0V112C0 85.49 21.49 64 48 64H96V32C96 14.33 110.3 0 128 0C145.7 0 160 14.33 160 32zM0 192H448V464C448 490.5 426.5 512 400 512H48C21.49 512 0 490.5 0 464V192zM80 256C71.16 256 64 263.2 64 272V368C64 376.8 71.16 384 80 384H176C184.8 384 192 376.8 192 368V272C192 263.2 184.8 256 176 256H80z"/>
@@ -173,7 +179,6 @@
         {% capture nowunix %}{{'now' | date: '%s' | times: 1}}{% endcapture %}
         {% capture eventtime %}{{event.date_time_end | date: '%s' | times: 1}}{% endcapture %}
         {% if eventtime < nowunix %}
-        <!--p>Past: {{ event.date_time_start }} - {{ event.date_time_end }}</p-->
         {% elsif eventtime > nowunix and show_counter < show_counter_max and event.kind == "Stammtisch" or event.kind ==
         "Sommerpause" %}
         {% if event.pre_info %} {{ event.pre_info }} </br> {% endif %}
@@ -184,12 +189,5 @@
         {% endif %}
         {% endfor %}
     </div>
-    <!--div class="info">Nächster Stammtisch: 27.02.2022 - 19:00</div-->
-    <!--div class="info">{{ "now" | date: "%Y-%m-%d %H:%M" }} {{ site.time }} Nächster Stammtisch: 27.02.2022 - 19:00</div-->
-</div>
-<!--
-        {% for page in site.pages %}
-          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
-        {% endfor %}
- -->
+</div> -->
 

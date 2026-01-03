@@ -423,6 +423,14 @@ section#mission .text-muted {
     color: #{{ site.data.template.color.light-grey }};
 }
 
+section#app .text-muted {
+    color: #{{ site.data.template.color.light-grey }};
+}
+
+section#app .section-heading {
+    color: #fff;
+}
+
 section#contact {
     padding: 60px 20px 40px 20px;
     background-size: cover;
