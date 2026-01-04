@@ -431,6 +431,14 @@ section#mission .text-muted {
     color: #e1e1e2;
 }
 
+section#app .text-muted {
+    color: #e1e1e2;
+}
+
+section#app .section-heading {
+    color: #fff;
+}
+
 section#contact {
     padding: 60px 20px 40px 20px;
     background-size: cover;
